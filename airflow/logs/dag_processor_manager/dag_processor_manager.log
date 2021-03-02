@@ -1,0 +1,709 @@
+[2021-03-02 07:11:47,415] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2021-03-02 07:11:47,416] {dag_processing.py:591} INFO - Process each file at most once every 30 seconds
+[2021-03-02 07:11:47,416] {dag_processing.py:593} INFO - Checking for new files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags every 300 seconds
+[2021-03-02 07:11:47,416] {dag_processing.py:731} INFO - Searching for files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags
+[2021-03-02 07:11:47,423] {dag_processing.py:734} INFO - There are 26 files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags
+[2021-03-02 07:11:47,439] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:11:47,439] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:06:47.439361+00:00
+[2021-03-02 07:11:47,547] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:11:47
+================================================================================
+[2021-03-02 07:11:57,673] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:11:57,673] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:06:57.673802+00:00
+[2021-03-02 07:12:07,809] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:12:07,810] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:07:07.809989+00:00
+[2021-03-02 07:12:18,516] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:12:18,516] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:07:18.516345+00:00
+[2021-03-02 07:12:18,625] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:12:06
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-03-02T10:12:07
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:11:59
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:11:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2021-03-02T10:11:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.20s           2021-03-02T10:12:09
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:11:57
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:12:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:11:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-03-02T10:11:48
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.20s           2021-03-02T10:11:57
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.11s           2021-03-02T10:12:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.20s           2021-03-02T10:11:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:12:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2021-03-02T10:11:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:12:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.20s           2021-03-02T10:11:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2021-03-02T10:12:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2021-03-02T10:12:12
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:12:04
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:12:05
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:12:10
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:12:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2021-03-02T10:12:03
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:11:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:12:18
+================================================================================
+[2021-03-02 07:12:28,929] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:12:28,929] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:07:28.929492+00:00
+[2021-03-02 07:12:39,505] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:12:39,505] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:07:39.505909+00:00
+[2021-03-02 07:12:48,818] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:12:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-03-02T10:12:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:12:29
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:12:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:12:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-03-02T10:12:40
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:12:29
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:12:31
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2021-03-02T10:12:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:12:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:12:27
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:12:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:12:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-03-02T10:12:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-03-02T10:12:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:12:39
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:12:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:12:43
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:12:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:12:34
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-03-02T10:12:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:12:41
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:12:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2021-03-02T10:12:33
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:12:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:12:48
+================================================================================
+[2021-03-02 07:12:49,865] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:12:49,865] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:07:49.865640+00:00
+[2021-03-02 07:13:00,606] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:13:00,606] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:08:00.606872+00:00
+[2021-03-02 07:13:10,733] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:13:10,734] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:08:10.734289+00:00
+[2021-03-02 07:13:18,993] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:13:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:13:09
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:13:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-03-02T10:12:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:12:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:13:11
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:12:59
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:13:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:12:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2021-03-02T10:12:50
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:12:58
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:13:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:12:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:13:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2021-03-02T10:12:50
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:13:10
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:12:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:13:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:13:12
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:13:06
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-03-02T10:13:07
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:13:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:13:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2021-03-02T10:13:04
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:12:57
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:13:18
+================================================================================
+[2021-03-02 07:13:21,055] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:13:21,055] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:08:21.055365+00:00
+[2021-03-02 07:13:31,891] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:13:31,892] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:08:31.892588+00:00
+[2021-03-02 07:13:42,172] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:13:42,172] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:08:42.172647+00:00
+[2021-03-02 07:13:55,352] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:13:55,353] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:08:55.353216+00:00
+[2021-03-02 07:13:55,481] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:13:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:13:40
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:13:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:13:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:13:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:13:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:13:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.11s           2021-03-02T10:13:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:13:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:13:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:13:29
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:13:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:13:27
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-03-02T10:13:34
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-03-02T10:13:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:13:41
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:13:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:13:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:13:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2021-03-02T10:13:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-03-02T10:13:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.30s           2021-03-02T10:13:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:13:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.31s           2021-03-02T10:13:35
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2021-03-02T10:13:28
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:13:18
+================================================================================
+[2021-03-02 07:14:08,037] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:14:08,037] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:09:08.037653+00:00
+[2021-03-02 07:14:18,288] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:14:18,289] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:09:18.289722+00:00
+[2021-03-02 07:14:25,635] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:13:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:13:40
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:14:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-03-02T10:14:12
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:14:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:13:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:14:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:14:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:14:17
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:14:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:14:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.11s           2021-03-02T10:14:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-03-02T10:14:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:14:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-03-02T10:13:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:13:41
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-03-02T10:14:11
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-03-02T10:14:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-03-02T10:14:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2021-03-02T10:13:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-03-02T10:13:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.30s           2021-03-02T10:13:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:14:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.31s           2021-03-02T10:13:35
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:14:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:14:10
+================================================================================
+[2021-03-02 07:14:28,797] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:14:28,797] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:09:28.797238+00:00
+[2021-03-02 07:14:39,366] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:14:39,366] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:09:39.366911+00:00
+[2021-03-02 07:14:49,777] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:14:49,778] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:09:49.778249+00:00
+[2021-03-02 07:14:55,799] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:14:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:14:31
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:14:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-03-02T10:14:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-03-02T10:14:45
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-03-02T10:14:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:14:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:14:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:14:48
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-03-02T10:14:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:14:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:14:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:14:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:14:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2021-03-02T10:14:35
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:14:34
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-03-02T10:14:41
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:14:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-03-02T10:14:47
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:14:28
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:14:28
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:14:33
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:14:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:14:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:14:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:14:40
+================================================================================
+[2021-03-02 07:15:00,198] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:15:00,198] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:10:00.198786+00:00
+[2021-03-02 07:15:10,797] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:15:10,797] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:10:10.797430+00:00
+[2021-03-02 07:15:21,310] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:15:21,311] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:10:21.311534+00:00
+[2021-03-02 07:15:26,170] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:15:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:15:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:15:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:15:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:15:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:15:03
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:15:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:15:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-03-02T10:15:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:15:09
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:15:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:15:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-03-02T10:15:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:14:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2021-03-02T10:15:06
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:15:05
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:15:12
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-03-02T10:15:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:15:17
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:15:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:14:59
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:15:05
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:15:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:14:58
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2021-03-02T10:15:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:15:10
+================================================================================
+[2021-03-02 07:15:31,788] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:15:31,789] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:10:31.789188+00:00
+[2021-03-02 07:15:42,250] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:15:42,250] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:10:42.250959+00:00
+[2021-03-02 07:15:52,724] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:15:52,724] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:10:52.724391+00:00
+[2021-03-02 07:15:56,444] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:15:31
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-03-02T10:15:33
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:15:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:15:43
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:15:46
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:15:34
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:15:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:15:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:15:48
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:15:39
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:15:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:15:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:15:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:15:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2021-03-02T10:15:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:15:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:15:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-03-02T10:15:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:15:47
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2021-03-02T10:15:31
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:15:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:15:35
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:15:45
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:15:29
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:15:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:15:41
+================================================================================
+[2021-03-02 07:16:03,128] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:16:03,128] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:11:03.128740+00:00
+[2021-03-02 07:16:13,690] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:16:13,690] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:11:13.690907+00:00
+[2021-03-02 07:16:23,736] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:16:23,737] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:11:23.737323+00:00
+[2021-03-02 07:16:26,715] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:16:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:16:05
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:16:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:16:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-03-02T10:16:17
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:16:04
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:16:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:16:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:16:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:16:09
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:16:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:16:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:16:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:15:57
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2021-03-02T10:16:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:16:06
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:16:12
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:16:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:16:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:16:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:16:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2021-03-02T10:16:07
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:16:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:15:59
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2021-03-02T10:16:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:16:11
+================================================================================
+[2021-03-02 07:16:34,348] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:16:34,348] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:11:34.348641+00:00
+[2021-03-02 07:16:45,200] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:16:45,200] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:11:45.200938+00:00
+[2021-03-02 07:16:48,564] {dag_processing.py:731} INFO - Searching for files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags
+[2021-03-02 07:16:48,586] {dag_processing.py:734} INFO - There are 26 files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags
+[2021-03-02 07:16:55,261] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:16:55,262] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:11:55.262034+00:00
+[2021-03-02 07:16:57,002] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:16:33
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:16:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:16:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-03-02T10:16:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-03-02T10:16:47
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-03-02T10:16:34
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:16:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:16:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:16:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:16:40
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:16:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.21s           2021-03-02T10:16:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-03-02T10:16:50
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:16:27
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-03-02T10:16:39
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:16:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:16:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:16:45
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:16:48
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:16:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:16:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:16:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:16:46
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2021-03-02T10:16:29
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:16:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-03-02T10:16:41
+================================================================================
+[2021-03-02 07:17:05,877] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:17:05,878] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:12:05.878573+00:00
+[2021-03-02 07:17:16,568] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:17:16,569] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:12:16.569594+00:00
+[2021-03-02 07:17:26,923] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:17:26,923] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:12:26.923669+00:00
+[2021-03-02 07:17:27,039] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:17:03
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:17:06
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:17:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:17:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2021-03-02T10:17:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-03-02T10:17:05
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:17:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:16:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-03-02T10:17:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:17:11
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:17:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:17:27
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:17:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:16:58
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2021-03-02T10:17:10
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:17:07
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:17:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-03-02T10:17:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:17:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:17:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:17:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:17:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:17:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:17:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2021-03-02T10:17:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:17:12
+================================================================================
+[2021-03-02 07:17:37,297] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:17:37,298] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:12:37.298056+00:00
+[2021-03-02 07:17:53,024] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:17:53,025] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:12:53.025272+00:00
+[2021-03-02 07:17:57,544] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-03-02T10:17:33
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-03-02T10:17:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:17:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:17:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:17:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:17:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:17:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:17:27
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:17:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-03-02T10:17:41
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:17:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:17:27
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:17:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:17:28
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2021-03-02T10:17:40
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:17:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:17:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2021-03-02T10:17:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:17:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2021-03-02T10:17:35
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:17:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:17:39
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2021-03-02T10:17:57
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:17:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2021-03-02T10:17:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-03-02T10:17:42
+================================================================================
+[2021-03-02 07:18:03,290] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:18:03,290] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:13:03.290981+00:00
+[2021-03-02 07:18:08,514] {dag_processing.py:571} INFO - Exiting gracefully upon receiving signal 15
+[2021-03-02 07:21:23,719] {dag_processing.py:590} INFO - Processing files using up to 1 processes at a time 
+[2021-03-02 07:21:23,719] {dag_processing.py:591} INFO - Process each file at most once every 30 seconds
+[2021-03-02 07:21:23,720] {dag_processing.py:593} INFO - Checking for new files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags every 300 seconds
+[2021-03-02 07:21:23,720] {dag_processing.py:731} INFO - Searching for files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags
+[2021-03-02 07:21:23,727] {dag_processing.py:734} INFO - There are 26 files in /media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/airflow/dags
+[2021-03-02 07:21:23,744] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:21:23,745] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:16:23.745027+00:00
+[2021-03-02 07:21:23,958] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.20s           2021-03-02T10:21:23
+================================================================================
+[2021-03-02 07:21:33,996] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:21:33,996] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:16:33.996464+00:00
+[2021-03-02 07:21:44,315] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:21:44,316] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:16:44.316048+00:00
+[2021-03-02 07:21:54,055] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:21:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:21:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:21:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.20s           2021-03-02T10:21:23
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2021-03-02T10:21:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:21:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:21:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:21:43
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2021-03-02T10:21:41
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.20s           2021-03-02T10:21:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:21:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:21:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:21:48
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-03-02T10:21:44
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2021-03-02T10:21:45
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:21:34
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2021-03-02T10:21:46
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2021-03-02T10:21:39
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:21:36
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-03-02T10:21:40
+================================================================================
+[2021-03-02 07:21:54,917] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:21:54,917] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:16:54.917228+00:00
+[2021-03-02 07:22:05,549] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:22:05,551] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:17:05.551287+00:00
+[2021-03-02 07:22:16,086] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:22:16,086] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:17:16.086261+00:00
+[2021-03-02 07:22:24,088] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:22:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-03-02T10:22:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:22:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-03-02T10:21:57
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:22:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2021-03-02T10:22:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:22:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.11s           2021-03-02T10:22:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2021-03-02T10:22:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:22:12
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.20s           2021-03-02T10:21:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.11s           2021-03-02T10:22:09
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.21s           2021-03-02T10:21:59
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-03-02T10:22:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2021-03-02T10:21:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:22:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-03-02T10:22:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2021-03-02T10:21:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:22:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:22:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:22:04
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:22:17
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.11s           2021-03-02T10:21:58
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2021-03-02T10:22:10
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:22:07
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-03-02T10:22:10
+================================================================================
+[2021-03-02 07:22:26,514] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:22:26,515] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:17:26.514996+00:00
+[2021-03-02 07:22:37,181] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:22:37,181] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:17:37.181373+00:00
+[2021-03-02 07:22:47,186] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:22:47,187] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:17:47.187363+00:00
+[2021-03-02 07:22:54,358] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:22:43
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:22:38
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.11s           2021-03-02T10:22:50
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2021-03-02T10:22:28
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:22:32
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-03-02T10:22:51
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2021-03-02T10:22:52
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:22:53
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-03-02T10:22:45
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2021-03-02T10:22:42
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.11s           2021-03-02T10:22:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:22:39
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.11s           2021-03-02T10:22:30
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2021-03-02T10:22:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2021-03-02T10:22:26
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.11s           2021-03-02T10:22:49
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2021-03-02T10:22:31
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:22:25
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2021-03-02T10:22:46
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.20s           2021-03-02T10:22:47
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.11s           2021-03-02T10:22:35
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:22:47
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.11s           2021-03-02T10:22:29
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2021-03-02T10:22:40
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:22:37
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.11s           2021-03-02T10:22:41
+================================================================================
+[2021-03-02 07:22:57,964] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:22:57,965] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:17:57.965231+00:00
+[2021-03-02 07:23:08,632] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:23:08,632] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:18:08.632692+00:00
+[2021-03-02 07:23:18,697] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:23:18,697] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:18:18.697563+00:00
+[2021-03-02 07:23:24,525] {dag_processing.py:838} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-03-02T10:23:14
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-03-02T10:23:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2021-03-02T10:23:20
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.11s           2021-03-02T10:22:58
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2021-03-02T10:23:02
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.11s           2021-03-02T10:23:21
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2021-03-02T10:23:22
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2021-03-02T10:23:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.11s           2021-03-02T10:23:15
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.11s           2021-03-02T10:23:13
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2021-03-02T10:22:54
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.10s           2021-03-02T10:23:09
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.10s           2021-03-02T10:23:00
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2021-03-02T10:23:24
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2021-03-02T10:22:56
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2021-03-02T10:23:19
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.11s           2021-03-02T10:23:01
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2021-03-02T10:22:55
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2021-03-02T10:23:16
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2021-03-02T10:23:17
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2021-03-02T10:23:05
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2021-03-02T10:23:18
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.11s           2021-03-02T10:22:59
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2021-03-02T10:23:11
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2021-03-02T10:23:08
+/media/thiagola92/LinuxHD/Documents/public/learning-apache-airflow/venv/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2021-03-02T10:23:12
+================================================================================
+[2021-03-02 07:23:29,302] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:23:29,303] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:18:29.303158+00:00
+[2021-03-02 07:23:39,453] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:23:39,454] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:18:39.454030+00:00
+[2021-03-02 07:23:49,940] {dag_processing.py:1071} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-03-02 07:23:49,940] {dag_processing.py:1075} INFO - Failing jobs without heartbeat after 2021-03-02 10:18:49.940870+00:00
